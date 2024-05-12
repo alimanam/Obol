@@ -10,11 +10,11 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 
 
 ```shell
-sudo apt-get update
+sudo apt-get update -y
 ```
 
 ```shell
-sudo apt-get install ca-certificates curl
+sudo apt-get install ca-certificates curl -y
 ```
 
 
@@ -39,11 +39,11 @@ echo \
 
 
 ```shell
-sudo apt-get update
+sudo apt-get update -y
 ```
 
 ```shell
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
 ```shell
@@ -51,7 +51,7 @@ apt install git-all
 ```
 
 ```shell
-git clone https://github.com/ObolNetwork/charon-distributed-validator-node.git
+git clone https://github.com/ObolNetwork/charon-distributed-validator-node.git -y
 ```
 
 ```shell
@@ -76,7 +76,7 @@ ENR
 -------------------------------------------
 
 ```shell
-apt install screen
+apt install screen -y
 ```
 
 ```shell
@@ -92,11 +92,11 @@ cd charon-distributed-validator-node
 ```
 
 ```shell
-sudo apt upgrade docker
+sudo apt upgrade docker -y
 ```
 
 ```shell
-sudo apt upgrade docker-compose
+sudo apt upgrade docker-compose -y
 ```
 
 ```shell
